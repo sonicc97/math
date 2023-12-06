@@ -1,7 +1,7 @@
 import math
-def hipotenuza():
-    a = float(input("Unesite duzinu prve katete:"))
-    b = float(input("Unesite duzinu druge katete:"))
+def hypotenuse():
+    a = float(input("Enter the length of the first leg:"))
+    b = float(input("Enter the length of the second leg:"))
     c = math.hypot(a,b)
-    print(f'Duzina hipotenuze je {c}')
-hipotenuza()
+    print(f'The length of the hypotenuse is {c}')
+hypotenuse()
