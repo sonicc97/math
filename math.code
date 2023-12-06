@@ -1,0 +1,13 @@
+def provera_tablice_mnozenja(broj_pokusaja):
+    granica = generisi_random_int(int(input('Uneti do kog broja testirati tablicu: ')))
+    for _ in range(broj_pokusaja):
+        broj1 = generisi_random_int(granica)
+        broj2 = generisi_random_int(granica)
+        rezultat = broj1 * broj2
+      
+        odgovor = int(input(f'Koliko je {broj1} x {broj2}? '))
+
+        if odgovor == rezultat:
+            print('Tacno!')
+        else:
+            print('Netacno!')
