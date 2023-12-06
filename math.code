@@ -6,11 +6,12 @@ def checking_the_multiplication_table(number_of_attempts):
         number2 = second
         result = number1 * number1
 
-        odgovor = int(input(f'Koliko je {number1} x {number2}? '))
+        answer = int(input(f'How much is it {number1} x {number2}? '))
 
-        if odgovor == result:
-            print('Correct!')
+        if answer == result:
+            print("Correct")
         else:
-            print('Not correct!')
+            print("Incorrectly")
+
 
 checking_the_multiplication_table(1)
